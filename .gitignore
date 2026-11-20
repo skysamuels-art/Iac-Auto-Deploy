@@ -1,0 +1,16 @@
+# Terraform local files
+**/.terraform/*
+*.tfstate
+*.tfstate.*
+*.tfplan
+tfplan
+crash.log
+*.tfvars
+
+# Ansible generated inventory
+ansible/inventory.ini
+
+# Never commit keys
+*.pem
+iac-demo
+iac-demo.pub
